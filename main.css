@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+.parent{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    width:70%;
+}
+.items{
+    border: 1px solid black;
+    width:30%;
+    margin-bottom: 30px;
+}
+.items img{
+    width:50%;
+    border-radius: 50%;
+    margin-left: 20%;
+
+}
+.space{
+    border-bottom:1px solid rgb(105, 96, 96);
+}
+.paragraph{
+    margin-left: 20%;
+}
+
+.parent .items a{
+    text-decoration: none;
+    margin-left: 20%;
+    color:black;
+    padding-top: 20px;
+}
